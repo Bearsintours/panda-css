@@ -1,0 +1,155 @@
+
+#box{
+  background:lightblue;
+  border: solid black;
+  width:600px;
+  height:600px;
+  margin:auto;
+
+}
+
+#head{
+  position:relative;
+  top:20%;
+  width:60%;
+  height:60%;
+  background:grey;
+  margin:auto;
+  border:5px solid black;
+  border-radius:50%;
+  z-index:0;
+
+}
+
+#head-copy{
+  position:absolute;
+  width:100%;
+  height:100%;
+  background:grey;
+  border-radius:50%;
+  z-index:2;
+}
+
+#left-ear{
+  position: absolute;
+  width:40%;
+  height:40%;
+  top: 0%;
+  left:-7%;
+  background:black;
+  border-radius:50%;
+  z-index:1;
+}
+
+#left-inner-ear{
+  position:relative;
+  background:white;
+  width:80%;
+  height:80%;
+  top:10%;
+  border-radius:50%;
+  margin:auto;
+  z-index:1;
+}
+
+#right-ear{
+  position: absolute;
+  width:40%;
+  height:40%;
+  right:-7%;
+  top:0%;
+  background:black;
+  border-radius:50%;
+  z-index:1;
+}
+
+#right-inner-ear{
+  position:relative;
+  background:white;
+  width:80%;
+  height:80%;
+  top:10%;
+  border-radius:50%;
+  margin:auto;
+  z-index:1;
+}
+
+#nose-mouth{
+  position:absolute;
+  width:40%;
+  height:40%;
+  bottom:20%;
+  left:30%;
+  border:solid black;
+  border-radius:50%;
+  background:white;
+  z-index:3;
+}
+
+#nose{
+  position:relative;
+  height:15%;
+  width:30%;
+  top:10%;
+  border:solid black;
+  border-radius:50%;
+  background:black;
+  margin:auto;
+  z-index:3;
+}
+
+#left-eye{
+  position:absolute;
+  height:20%;
+  width:30%;
+  border:solid black;
+  border-radius:50%;
+  background:black;
+  margin:auto;
+  top:30%;
+  right:20%;
+  z-index:2;
+}
+
+#inner-left-eye{
+  position: relative;
+  background:white;
+  height:30%;
+  width:20%;
+  left:40%;
+  top:10%;
+  border-radius:50%;
+}
+
+#right-eye{
+  position:absolute;
+  height:20%;
+  width:30%;
+  border:solid black;
+  border-radius:50%;
+  background:black;
+  margin:auto;
+  top:30%;
+  left:20%;
+  z-index:2;
+}
+
+#inner-right-eye{
+  position: relative;
+  background:white;
+  height:30%;
+  width:20%;
+  left:40%;
+  top:10%;
+  border-radius:50%;
+}
+
+#left-mouth{
+  position:absolute;
+  border-bottom: solid black;
+  height:30%;
+  width:30%;
+  left:35%;
+  top:50%;
+  border-radius:50%;
+}
